@@ -22,8 +22,8 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className=" w-full md:w-1/2">
-        <img src={heroBall} alt="Hero Moon" className="w-12 md:w-16" />
+      <div className="absolute ml-96 pl-48 mt-24 w-full md:w-1/2">
+        <img src={heroBall} alt="Hero Moon" className="max-w-full h-auto object-contain" />
       </div>
     </section>
   );
